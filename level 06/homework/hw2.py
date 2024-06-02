@@ -1,4 +1,4 @@
 misaloci_barati=input(  "enter your name ")
 
 
-print("happy irthday" + " " +misaloci_barati)
+print("happy birthday" + " " +misaloci_barati)
