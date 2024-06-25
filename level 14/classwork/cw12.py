@@ -1,7 +1,10 @@
 password=0
-while password!=12344:
-    password=input('please enter your passwprd')
-    if password ==12344:
-        print('nice')
+while password!=2:
+    #password=input("enter password")
+    print(password)
+    password=password +2
+    
+    if password=="luka":
+        print("corect")
     else:
-        print('try again')    
+        print("try again")    
