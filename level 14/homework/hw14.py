@@ -1,4 +1,4 @@
-score=49
+score=97
 if score>=50:
     print("you passed")
 else:
