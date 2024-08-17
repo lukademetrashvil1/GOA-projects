@@ -1,0 +1,102 @@
+body{
+    background-image: url(./img/teadsdd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+img{
+    border-radius: 20px;
+    width: 300;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#bax{
+    background-image: url(./img/ბახმარო.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+
+}
+#besh{
+    background-image: url(./img/ბეშუმი.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+}
+.gomi{
+
+        background-image: url(./img/გომისმთა.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        width: 1000;
+        border-radius: 20px;
+}
+.gon{
+    background-image: url(./img/gonio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+}
+#kvar{
+    background-image: url(./img/kvariati.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+}
+#leba{
+    background-image: url(./img/ლებარდე.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+}
+#mar{
+    background-image: url(./img/მარტვილის\ კანიონი2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+}
+.sar{
+    background-image: url(./img/აჭარა.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+}
+#ure{
+    background-image: url(./img/ურეკი.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+    
+}
+.ca{
+    background-image: url(./img/ცაიში.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 1000;
+    border-radius: 20px;
+}
+iframe{
+    border-radius: 20px;
+}

@@ -1,24 +1,26 @@
 body{
-    background-image: url(./img/w.jpg);
+    background-image: url(./img/teadsdd.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 h1{
     text-align: center;
-    color:white
+    color:black
 }
 p {
     text-align: center;
-    color:white;
+    color:rgb(0, 0, 0);
     font: size 40px;
 }
 h2 {
     text-align: center;
-    color:white;
+    color:rgb(0, 0, 0);
 
     text-align:center ;
 }
 iframe{
     border-radius: 20px;
+    margin-left: 50vw;
+    transform: translate(-50%);
 }
