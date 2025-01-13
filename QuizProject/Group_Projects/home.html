@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Quiz Platform!</h1>
+        <p>Choose a category and test your knowledge!</p>
+    </header>
+
+    <section class="categories">
+        <div class="category-card">
+            <h2>📚 General Knowledge</h2>
+            <p>A quiz on various topics: history, geography, science, and more.</p>
+            <a href="./page1.html">Start</a>
+        </div>
+
+        <div class="category-card">
+            <h2>🎬 Movies and TV Shows</h2>
+            <p>See how well you know popular movies and series!</p>
+            <a href="movies-quiz.html">Start</a>
+        </div>
+
+        <div class="category-card">
+            <h2>⚽ Sports</h2>
+            <p>Test your knowledge about different sports.</p>
+            <a href="sports-quiz.html">Start</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Quiz Platform. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Button click animation with loading effect
+        document.querySelectorAll('.category-card a').forEach(button => {
+            button.addEventListener('click', function(event) {
+                event.preventDefault();
+                this.innerText = "Loading...";
+                this.style.transform = "scale(0.9)";
+                this.style.backgroundColor = "#444";
+
+                setTimeout(() => {
+                    window.location.href = this.href;
+                }, 500);
+            });
+        });
+    </script>
+</body>
+</html>

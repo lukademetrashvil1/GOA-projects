@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ქვიზი</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <center>
+        <h1>გილოცავთ! თქვენ წარმატებით დაასრულეთ ქვიზი! <br> მადლობა თამაშისთვის!</h1>
+        <button onclick="goHome()">Home</button>
+    </center>
+
+    <!-- კონფეტის ეფექტი -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                confetti({
+                    particleCount: 200,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+            }, 500);
+        };
+
+        // ღილაკზე დაჭერისას დაბრუნება მთავარ გვერდზე
+        function goHome() {
+            window.location.href = "home.html"; // შეცვალე ბმული შენს მთავარ გვერდზე
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* ფონზე გრადიენტული ეფექტი */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* ტექსტის სტილი */
+h1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* შემოსვლის ანიმაცია */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* ჰოვერის ეფექტი */
+h1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3);
+}
+/* ღილაკის ძირითადი სტილი */
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2575fc;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+/* ჰოვერის ეფექტი - ფერის და ზომის შეცვლა */
+button:hover {
+    background-color: #6a11cb;
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* დაჭერის ეფექტი - ღილაკის დაპატარავება */
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ღილაკის ტექსტის სტილი */
+button::first-letter {
+    text-transform: uppercase;
+}
+
+/* ღილაკი მობილურზე */
+@media (max-width: 600px) {
+    button {
+        padding: 10px 25px;
+        font-size: 1em;
+    }
+}

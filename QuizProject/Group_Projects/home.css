@@ -1,0 +1,79 @@
+/* ძირითადი სტილები */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* კატეგორიების განლაგება */
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* კატეგორიის ბარათი */
+.category-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.category-card a {
+    text-decoration: none;
+    background-color: #2575fc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* ჰოვერის ეფექტი */
+.category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+
+.category-card a:hover {
+    background-color: #6a11cb;
+    transform: scale(1.1);
+}
+
+/* ფუტერი */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+}

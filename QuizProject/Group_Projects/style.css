@@ -1,0 +1,114 @@
+:root {
+    --main-border-radius: 30px;
+}
+
+* {
+    font-family: inter;
+}
+
+h1 {
+    position: absolute;
+    left: 26%;
+    top: 13%;
+    font-size: 210%;
+}
+
+img {
+    width: 30%;
+    position: absolute;
+    right: 26%;
+    top: 13%;
+    border-top-right-radius: var(--main-border-radius);
+    border-bottom-right-radius: var(--main-border-radius);
+}
+
+a {
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    border: solid 1px;
+    border-radius: 140px;
+    padding: 10px 70px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+#Answer1 {
+    left: 27%;
+    top: 34%;
+}
+
+#Answer2 {
+    left: 27%;
+    top: 47%;
+}
+
+#Answer3 {
+    left: 27%;
+    top: 60%;
+}
+
+#backgrounds {
+    background-color: white;
+    border: 2px solid black;
+    width: 400px;
+    height: 719px;
+    position: absolute;
+    left: 23.5%;
+    top: 13%;
+    z-index: -1;
+    border-bottom-left-radius: var(--main-border-radius);
+    border-top-left-radius: var(--main-border-radius);
+}
+
+@media (min-width: 1024px) {
+    img {
+        position: absolute;
+        left: 58%;
+        height: 83.5%;
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1440px) {
+    img {
+        position: absolute;
+        left: 50%;
+        height: 81.3%;
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    #backgrounds {
+        height: 700px;
+    }
+}
+
+@media (min-width: 1920px) {
+    img {
+        position: absolute;
+        left: 44%;
+        height: 73.9%;
+        width: 29%;
+    }
+
+    h1 {
+        font-size: 33.5px;
+    }
+
+    #backgrounds {
+        height: 700px;
+    }
+}
